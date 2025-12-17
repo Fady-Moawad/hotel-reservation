@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="../images/hotel.ico" sizes="any">
+
+    <title>Hotel Room Booking</title>
+    <link rel="stylesheet" href="../css/reservation.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🏨 Book Your Stay</h1>
+            <p>Secure your room instantly with our easy booking form.</p>
+        </header>
+
+
+        <form id="bookingForm" class="booking-form">
+
+            <div class="section-title">Guest Details</div>
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="name" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="section-title">Stay Dates</div>
+
+            <div class="form-group">
+                <label for="checkInDate">Check-in Date:</label>
+                <input type="date" id="checkInDate" name="checkInDate" required>
+            </div>
+            <div class="form-group">
+                <label for="checkOutDate">Check-out Date:</label>
+                <input type="date" id="checkOutDate" name="checkOutDate" required>
+                <small id="dateError" class="error-message"></small>
+            </div>
+
+            <div class="section-title">Room & Guests</div>
+
+            <div class="form-group">
+                <label for="roomType">Room Type:</label>
+                <select id="type" name="roomType" required>
+                    <option value="" disabled selected>Select Room Type</option>
+                    <option value="single">Single Room ($150/night) max Guest 1</option>
+                    <option value="double">Double Room ($200/night) max Guest 2</option>
+                    <option value="suite">Luxury Suite ($400/night) max Guest 5</option>
+                </select>
+            </div>
+            <div id="display"></div>
+            <div id="btn">
+                <button id="send" type="button" onclick="reservation()" class="submit-btn">Complete Reservation</button>
+            </div>
+            <div id="confirmationMessage" class="confirmation-message" style="display:none;"></div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Grand Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/reservation.js"></script>
+</body>
+
+</html>

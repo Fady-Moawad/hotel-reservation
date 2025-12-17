@@ -1,0 +1,233 @@
+/*home*/
+body{
+    overflow-x: hidden;
+    background-color:#ffc08565;
+}
+#se{
+    display:contents;
+    translate:40px 0
+}
+#sign{
+    translate:610px 0;
+}
+#reg{
+    translate:430px 0;
+}
+.carousel-inner #img{
+width: 450px;
+height: 560px;
+border-radius: 20px;
+}
+.navbar-nav{
+    translate:30px 0;
+}
+#welcom{
+    color: white;
+    text-shadow: 1px 1px 3px aqua;
+    font-size: 70px;
+    z-index: 1;
+    position: absolute;
+    translate:420px 150px;
+    font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+#details{
+    text-align: center;
+}
+#D1,#D2,#D3{
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin:70px;
+}
+#aa{
+    translate:0 400px
+}
+#p1,#p2,#p3,#p4{
+    width: 230px;
+    height: 250px;
+    border-radius: 20px;
+}
+#p1:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+#p2:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+#p3:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+#p4:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+#p1{
+    translate:100px -330px;
+}
+
+#p2{
+    translate:110px -300px;
+}
+#p3{
+    translate:-370px -60px;
+}
+#p4{
+    translate:-355px -30px;
+}
+
+#about-us{
+    width: 620px;
+    height: 300px;
+    
+    translate:590px -450px;
+    border-radius: 10px;
+}
+#about-us p{
+font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 10px;
+}
+#about-us small{
+    margin: 10px;
+}
+#about-us b,br{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 10px;
+}
+#Gards{
+    text-align: center;
+}
+#gard1,#gard2,#gard3{
+    border-radius: 30px;
+    float: left;
+    margin: 30px;
+    translate:80px 230px;
+    height: 450px;
+}
+#Gards .card-body button a{
+    color: white;
+    text-decoration: none;
+}
+#gard3 img,#gard2 img,#gard1 img{
+    height: 250px;
+    border-radius: 30px 30px 0 0;
+}
+#cu{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+#fo{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    position: absolute;
+    translate:450px 900px
+}
+#fo button{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    position: absolute;
+    translate:0 1200px;
+    width: 1400px;
+    height: 130px;
+    background-color:rgba(133, 74, 52, 0.568);
+    opacity: 0.8;
+    text-align: center;
+}
+#footer #ho,h3{
+    margin-right: 50px;
+}
+#footer h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#footer #facebook2,#insta2,#whatsapp2,#linkedin2,#email2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    z-index: 2;
+    margin-right: 10px;
+    translate:-15px 0;
+    
+} 
+    
+#facebook2:hover{
+    background-color: blue;
+    color: aliceblue;
+    border: blue;
+    box-shadow: 0 0 5px 1px blue;
+    cursor: pointer;
+
+}
+
+#insta2:hover{
+    background-color:rgba(255, 0, 0, 0.661);
+    color: aliceblue;
+    border:rgba(255, 0, 0, 0.661) ;
+    box-shadow:0 0 5px 1px red ;
+    cursor: pointer;
+
+}
+#whatsapp2:hover{
+    background-color:green ;
+    color:aliceblue;
+    border:green ;
+    box-shadow: 0 0 5px 1px green;
+    cursor: pointer;
+
+}
+#linkedin2:hover{
+    background-color:rgba(0, 0, 255, 0.663) ;
+    color:aliceblue;
+    border:rgba(0, 0, 255, 0.663) ;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 255, 0.663) ;
+    cursor: pointer;
+
+}
+#email2:hover{
+    background-color:yellow ;
+    color:black;
+    border:yellow ;
+    box-shadow: 0 0 5px 1px yellow ;
+    cursor: pointer;
+}

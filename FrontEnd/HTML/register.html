@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+      <link rel="icon" href="../images/hotel.ico" sizes="any">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/loginAndRegister.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="name" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div id="display"></div>
+            <div id="btn">
+
+
+                <button onclick="register()"  id="send" type="button">Sign Up</button>
+            </div>
+
+            <div class="switch">
+                <p>Have an account?</p>
+                <a href="login.html" class="switch-btn">Login</a>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="../js/regiter.js"></script>
+</body>
+
+</html>
